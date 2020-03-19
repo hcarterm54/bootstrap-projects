@@ -1,0 +1,16 @@
+/* CSS Document */
+
+@import '../_partials/_defaults';
+@import '../_partials/_mixins';
+
+.carousel-inner > .item > img {
+	max-height: 230px;
+	min-width: auto;
+}
+
+h2 {
+	@include font-size-mixin(21);
+	margin: 15px 0;
+	color: orange;
+}
+
